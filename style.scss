@@ -1,0 +1,77 @@
+@import "obnul.scss";
+
+body {
+  font-family: Manrope;
+  font-weight: 400;
+  color: #424467;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  word-wrap: break-word;
+}
+._container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+main {
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+.button {
+  border-radius: 12px;
+}
+
+// -----header-------------------------------------------------------------------
+
+.header {
+  background: #f9f9ff;
+
+  &__container {
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    min-height: 46px;
+    padding: 10px 0 0 0;
+  }
+
+  &__logo {
+    flex: 1 0 auto;
+  }
+
+  &__menu {
+    margin: 0 0 0 90px;
+  }
+
+  &__button {
+    margin: 0 0 0 197px;
+    background: #f2b705;
+    padding: 13px 24px;
+    color: white;
+    // font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+  }
+}
+
+.menu {
+  &__list {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__item {
+  }
+
+  &__link {
+    font-family: Montserrat;
+    line-height: calc(24 / 16 * 100%);
+    color: inherit;
+  }
+}
+
+// -----main-------------------------------------------------------------------
